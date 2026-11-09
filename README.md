@@ -2,9 +2,13 @@
 
 [![Play on itch.io](https://img.shields.io/badge/Play_on-itch.io-FA5C5C?style=for-the-badge&logo=itch.io)](https://shinchanstudio.itch.io/partypose-maze-ball-ar)
 
-MainMekanik adalah mini game puzzle 2D/3D interaktif yang dibuat menggunakan Unity. Game ini memanfaatkan teknologi Augmented Reality (AR) *body tracking* sebagai kontroler utamanya. 
+MainMekanik adalah mini game puzzle 2D/3D interaktif yang dibuat menggunakan Unity. Game ini memanfaatkan teknologi Augmented Reality (AR) *body tracking* sebagai kontroler utamanya. Proyek ini dikembangkan buat ngeksplorasi *core gameplay loop* yang asik, arsitektur kode yang rapi, dan bereksperimen dengan input kontrol game yang beda dari biasanya.
 
 **👉 Kamu bisa main dan download build-nya di sini:** [https://shinchanstudio.itch.io/partypose-maze-ball-ar](https://shinchanstudio.itch.io/partypose-maze-ball-ar)
+
+## 📄 Dokumen Arsitektur & Desain
+Untuk penjelasan lebih mendalam mengenai keputusan desain, *core loop*, dan struktur kode dari proyek ini, silakan cek dokumen berikut:
+**[Baca Game Architecture & Design Document (Google Docs)](https://docs.google.com/document/d/1JUaDsl-SbLrpbYEo6CHDB2WN3MsDIex0/edit?usp=sharing)**
 
 ## 🌟 Fitur Utama
 - **Kontrol Unik:** Pakai *body tracking* berbasis kamera (MediaPipe) buat ngendaliin puzzle, ngasih pengalaman yang jauh lebih seru dibanding cuma main pakai *keyboard* atau *mouse*.
@@ -28,11 +32,4 @@ Game ini dibangun dengan siklus *Action-Feedback-Progression* yang bikin ketagih
 Kalau ada waktu luang, proyek ini bisa banget ditambahin fitur kayak:
 - **Multi-Mini-Game Hub:** Nambahin mini-game lain, misalnya game kartu memori berbasis perintah suara (*Voice Command Memory Card*) pakai Windows Speech Recognition buat variasi.
 - **Local Multiplayer:** Bikin sistem kameranya bisa ngebaca dua orang sekaligus, jadi pemain bisa tanding sebelah-sebelahan.
-- **Online Leaderboard:** Nambahin sistem skor online (ke *cloud backend*) berdasarkan waktu penyelesaian tercepat biar orang makin tertantang buat main lagi.
-
-## 🛠️ Cara Main (Build Instructions)
-1. Download file rilis `.zip` terbaru dari [halaman itch.io](https://shinchanstudio.itch.io/partypose-maze-ball-ar) atau *clone repository* ini.
-2. Kalau mau *compile* manual dari awal, buka proyek ini pakai **Unity 2022.3** (atau versi yang lebih baru).
-3. Buka scene `Main Menu` yang ada di dalam folder `Scenes`.
-4. Pastiin izin (permission) webcam di komputermu udah diizinkan/aktif.
-5. Klik **Play** dan selamat bermain!
+- **Online Leaderboard:** Nambahin sistem skor online (ke *cloud backend*) berdasarkan waktu penyelesaian tercepat biar
