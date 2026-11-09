@@ -2,7 +2,7 @@
 
 [![Play on itch.io](https://img.shields.io/badge/Play_on-itch.io-FA5C5C?style=for-the-badge&logo=itch.io)](https://shinchanstudio.itch.io/partypose-maze-ball-ar)
 
-MainMekanik adalah mini game puzzle 2D/3D interaktif yang dibuat menggunakan Unity. Game ini memanfaatkan teknologi Augmented Reality (AR) *body tracking* sebagai kontroler utamanya. Proyek ini dikembangkan buat ngeksplorasi *core gameplay loop* yang asik, arsitektur kode yang rapi, dan bereksperimen dengan input kontrol game yang beda dari biasanya.
+MainMekanik adalah mini game puzzle 2D/3D interaktif yang dibuat menggunakan Unity. Game ini memanfaatkan teknologi Augmented Reality (AR) *body tracking* sebagai kontroler utamanya. 
 
 **👉 Kamu bisa main dan download build-nya di sini:** [https://shinchanstudio.itch.io/partypose-maze-ball-ar](https://shinchanstudio.itch.io/partypose-maze-ball-ar)
 
